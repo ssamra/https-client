@@ -1,6 +1,6 @@
 const https = require('https');
-//const url = 'https://hvodc1.sse.codesandbox.io/';
-const url = 'https://nl6o88.sse.codesandbox.io/endpoint';
+const url = 'https://hvodc1.sse.codesandbox.io/';
+//const url = 'https://nl6o88.sse.codesandbox.io/endpoint';
 
 https.get(url, (res) => {
   console.log('statusCode:', res.statusCode);
